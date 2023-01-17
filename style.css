@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Big+Shoulders+Display:wght@600&family=Fraunces:opsz,wght@9..144,700&family=Josefin+Sans:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;700&family=Lexend+Deca:wght@200;400&family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'league spartan';
+}
+.attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+.attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+h1{
+        color: hsl(300, 43%, 22%);
+        width: 300px;
+      }
+.rating{
+   position: relative;
+   left: 70px;
+   font-weight: bold;
+   color: hsl(300, 43%, 22%);
+}
+.revv{
+    width: 400px;
+    height: 200px;
+}
+.one{
+    background-color:  hsl(300, 24%, 96%);
+    width: 400px;
+    padding: 12px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.two{
+    background-color:  hsl(300, 24%, 96%);
+    width: 400px;
+    padding: 12px;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+}
+.three{
+    background-color:  hsl(300, 24%, 96%);
+    width: 400px;
+    padding: 12px;
+    border-radius: 5px;
+    position: relative;
+    left: 100px;
+}
+.service{
+    width: 400px;
+}
+.rev1{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    margin: 10px;
+    height: 250px;
+    padding: 35px 0px 0px 20px;
+    border-radius: 7px;
+}
+.rev2{
+    width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    margin: 10px;
+    height: 250px;
+    padding: 35px 0px 0px 20px;
+    border-radius: 7px;
+    position: relative;
+    top: 20px;
+}
+.rev3{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    margin: 10px;
+    height: 250px;
+    padding: 35px 0px 0px 20px;
+    border-radius: 7px;
+    position: relative;
+    top: 40px;
+}
+.username{
+    display: inline-flex;
+    justify-content: space-between; 
+
+}
+.verified{
+    color: hsl(333, 80%, 67%);
+    position: relative;
+    top: -10px;
+}
+.user{
+    position: relative;
+    left: 40px;
+}
+.tea{
+    position: relative;
+    left: 15px;
+}
+@media(max-width: 475px){
+    .con{
+        font-family: 'league spartan';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .attribution {
+            font-size: 11px;
+            text-align: center; 
+          }
+    .attribution a {
+            color: hsl(228, 45%, 44%);
+          }
+          h1{
+            color: hsl(300, 43%, 22%);
+            width: 200px;
+            text-align: center;
+            font-weight: bold;
+          }
+          .service{
+            width: 250px;
+            text-align: center; 
+        }
+          .review{
+            display: flex;
+            flex-direction: column;
+            
+          }
+        
+        .rev1{
+            background-color: hsl(300, 43%, 22%);
+            color: white;
+            margin: 10px;
+            padding: 35px 0px 0px 20px;
+            border-radius: 7px;
+            position: relative;
+            top: 20px;
+        }
+        .rev2{
+            background-color: hsl(300, 43%, 22%);
+            color: white;
+            margin: 10px;
+            padding: 35px 0px 0px 20px;
+            border-radius: 7px;
+            position: relative;
+            top: 20px;
+        }
+        .rev3{
+            background-color: hsl(300, 43%, 22%);
+            color: white;
+            margin: 10px;
+            padding: 35px 0px 0px 20px;
+            border-radius: 7px;
+        }
+        .rating{
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            color: hsl(300, 43%, 22%);
+         }
+         
+         .one{
+             background-color:  hsl(300, 24%, 96%);
+             width: 400px;
+             padding: 12px;
+             border-radius: 5px;
+             position: relative;
+             left: -60px;
+             width: 250px;
+         }
+         .two{
+             background-color:  hsl(300, 24%, 96%);
+             width: 250px;
+             padding: 12px;
+             border-radius: 5px;
+             position: relative;
+             left: -60px;
+         }
+         .three{
+             background-color:  hsl(300, 24%, 96%);
+             width: 400px;
+             padding: 12px;
+             border-radius: 5px;
+             position: relative;
+             left: -60px;
+             width: 250px;
+         }
+}
